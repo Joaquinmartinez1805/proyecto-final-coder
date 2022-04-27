@@ -1,0 +1,114 @@
+// estilos para el index
+.body-index{
+    bAckground-color: rgb(65, 65, 65);
+    H3{
+        color: white;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    p{
+        color: white;
+        margin-left: 10px;
+    }
+
+    header{
+        .logo{
+            margin-left: 10px;
+        }
+ 
+    }
+    .navegador{
+        margin-left: 10px;
+        margin-right: 5px;
+        .container-fluid{
+            background-color: rgb(31, 30, 30);
+            border: solid;
+            border-radius: 10px;
+            color: rgba(241, 245, 8, 0.808);
+            .d-flex{
+                margin-top:15px;
+                margin-bottom:15px;
+            }
+        }
+    }
+}
+.home-principal{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(2,1fr);
+    .home-prncipal-1{
+        grid-column:1/4;
+        grid-row:2/2;
+        border: solid;
+        border-radius: 10px;
+        color:rgba(241, 245, 8, 0.808);
+        margin-left: 10px; 
+        background-color: rgb(31, 30, 30);  
+    }
+    .home-principal-2{
+        grid-column:4/7;
+        grid-row:2/2;
+        border: solid;
+        border-radius: 10px;
+        color:rgba(241, 245, 8, 0.808);
+        margin-left: 10px;
+        background-color: rgb(31, 30, 30);
+
+    }
+    .home-principal-3{
+        grid-column:7/10;
+        grid-row:2/2;
+        border: solid;
+        border-radius: 10px;
+        color:rgba(241, 245, 8, 0.808);
+        margin-left: 10px;
+        margin-right: 5px;
+        background-color: rgb(31, 30, 30);
+    }
+    .home-principal-0{
+        grid-column:1/10;
+        grid-row:1/2;
+        border: solid;
+        border-radius: 10px;
+        color:rgba(241, 245, 8, 0.808);
+        margin-left: 10px; 
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        background-color: rgb(31, 30, 30);
+    }
+    .boton-parrafo-2{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+      }
+    .boton-parrafo-3{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    
+
+}
+.pie-pagina{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    h5{
+        color: white;
+        margin-left: 10px;
+        margin-top: 10px;
+        
+    }
+    .redes-sociales{
+        display: flex;
+        color:white;
+        justify-content: center;
+    }
+    i{
+        padding-left: 20px;
+    }
+}
+
+
