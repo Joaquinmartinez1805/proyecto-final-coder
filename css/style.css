@@ -183,5 +183,15 @@
 .principal-servicios .texto-monitoreo p {
   padding-top: 30px;
 }
+.principal-servicios .servicios-telefono {
+  grid-column: 1/4;
+  grid-row: 3/3;
+  margin-left: 15px;
+  border: solid;
+  border-color: rgba(241, 245, 8, 0.808);
+  border-radius: 10px;
+  padding-left: 15px;
+  margin-right: 5px;
+}
 
 /*# sourceMappingURL=style.css.map */
