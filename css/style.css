@@ -104,4 +104,84 @@
   padding-left: 20px;
 }
 
+.principal-servicios {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.principal-servicios .carrusel-camaras {
+  grid-column: 1/2;
+  grid-row: 1;
+  border: solid;
+  border-color: rgba(241, 245, 8, 0.808);
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 500px;
+  height: 500px;
+}
+.principal-servicios .carrusel-camaras h5 {
+  color: white;
+}
+.principal-servicios .texto-camaras {
+  grid-column: 2/5;
+  grid-row: 1;
+  margin-left: 15px;
+  border: solid;
+  border-color: rgba(241, 245, 8, 0.808);
+  border-radius: 10px;
+  padding-left: 15px;
+  margin-right: 5px;
+  height: 500px;
+}
+.principal-servicios .texto-camaras h5 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.principal-servicios .texto-camaras h4 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 30px;
+}
+.principal-servicios .carrusel-monitoreo {
+  margin-top: 40px;
+  grid-column: 1/2;
+  grid-row: 2;
+  border: solid;
+  border-color: rgba(241, 245, 8, 0.808);
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 500px;
+  height: 500px;
+}
+.principal-servicios .texto-monitoreo {
+  margin-top: 40px;
+  grid-column: 2/5;
+  grid-row: 2;
+  margin-left: 15px;
+  border: solid;
+  border-color: rgba(241, 245, 8, 0.808);
+  border-radius: 10px;
+  padding-left: 15px;
+  margin-right: 5px;
+}
+.principal-servicios .texto-monitoreo h5 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 20px;
+}
+.principal-servicios .texto-monitoreo h4 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 30px;
+}
+.principal-servicios .texto-monitoreo p {
+  padding-top: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
