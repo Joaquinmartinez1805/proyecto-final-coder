@@ -2,13 +2,17 @@
 .body-index{
     bAckground-color: rgb(65, 65, 65);
     H3{
+        display: flex;
+        justify-content: center;
         color: white;
         margin-left: 10px;
         margin-top: 10px;
     }
     p{
+        display: flex;
+        justify-content: center;
         color: white;
-        margin-left: 10px;
+        padding-left: 9px;
     }
 
     header{

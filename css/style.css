@@ -3,13 +3,17 @@
   bAckground-color: rgb(65, 65, 65);
 }
 .body-index H3 {
+  display: flex;
+  justify-content: center;
   color: white;
   margin-left: 10px;
   margin-top: 10px;
 }
 .body-index p {
+  display: flex;
+  justify-content: center;
   color: white;
-  margin-left: 10px;
+  padding-left: 9px;
 }
 .body-index header .logo {
   margin-left: 10px;
