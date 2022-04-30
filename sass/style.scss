@@ -451,3 +451,25 @@
     }
 
 }
+//mensaje de recepcion de contacto
+.mensaje-consulta{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    .texto-consulta{
+        border: solid;
+        border-color:rgba(241, 245, 8, 0.808);
+        grid-column: 2/6;
+        margin-top: 20px;
+        h3{
+            display: flex;
+            justify-content: center;
+        }
+      h4{
+        display: flex;
+        justify-content: center;
+        color: white;
+      }  
+    }
+
+}
+

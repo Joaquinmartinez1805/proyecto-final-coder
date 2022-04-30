@@ -434,4 +434,24 @@
   color: white;
 }
 
+.mensaje-consulta {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.mensaje-consulta .texto-consulta {
+  border: solid;
+  border-color: rgba(241, 245, 8, 0.808);
+  grid-column: 2/6;
+  margin-top: 20px;
+}
+.mensaje-consulta .texto-consulta h3 {
+  display: flex;
+  justify-content: center;
+}
+.mensaje-consulta .texto-consulta h4 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
