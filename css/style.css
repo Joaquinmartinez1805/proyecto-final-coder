@@ -558,7 +558,7 @@
     background-color: rgb(31, 30, 30);
   }
   .principal-servicios .texto-camaras h5 {
-    display: flex;
+    display: none;
     justify-content: center;
     color: white;
     margin-bottom: 20px;
@@ -672,7 +672,7 @@
     height: 150px;
   }
   .principal-servicios .texto-acompañante h5 {
-    display: flex;
+    display: none;
     justify-content: center;
     color: white;
     margin-bottom: 20px;
